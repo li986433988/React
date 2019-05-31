@@ -1,0 +1,76 @@
+.App{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    .main{
+        position: absolute;
+        top: .88rem;
+        bottom: 0;
+        width: 100%;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 0 .2rem;
+        .paybox{
+            width: 100%;
+            height: 5rem;
+            >h2{
+                line-height: .8rem;
+                text-align: center;
+                font-weight: bold;
+                font-size: .3rem;
+            }
+            .payimgbox{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+                height: 4rem;
+                >div{
+                    width: 3rem;
+                    height: 3.8rem;
+                    >img{
+                        width: 100%;
+                        height:3rem;
+                    }
+                    >h2{
+                        line-height: .8rem;
+                        text-align: center;
+                        font-size: .3rem
+                    }
+                }
+            }
+            
+        }
+        .upload{
+            width: 100%;
+            padding: .2rem;
+            >h2{
+                line-height:1rem;
+                font-size: .3rem;
+                color: #333333;
+                text-align: center;
+            }
+            .con{
+                width: 4rem;
+                min-height: 4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                box-shadow: 0 0 .05rem .05rem #cacaca;
+                >img{
+                    width: 100%;
+                }
+                .imgbox{
+                    width:2rem;
+                    min-height:2rem;
+                    background-size: contain !important;
+                    >input{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

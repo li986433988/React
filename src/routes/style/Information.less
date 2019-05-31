@@ -1,0 +1,45 @@
+.App{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F6F6F6;
+    .main{
+        position: absolute;
+        top: .88rem;
+        width: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        bottom: 1rem;
+        padding-bottom: .1rem;
+        .list{
+            width: 100%;
+            background-color: #fff;
+            margin-top: .1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:.2rem;
+            >div{
+                width: 3.8rem;
+                height: 100%;
+                >p{
+                    color:#1E1E1E;
+                    line-height: .4rem;
+                }
+                .info{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-size: .2rem;
+                    color: #999999;
+                }
+            }
+            >img{
+                width: 3rem;
+                height: 1.5rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+.App{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F6F6F6;
+    .main{
+        position: absolute;
+        top: .9rem;
+        bottom: 1rem;
+        overflow: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        background-color: #fff;
+        .condition{
+            width: 100%;
+            height:auto;
+            >h2{
+                line-height: 1rem;
+                border-bottom: .01rem solid #DBDBDB;
+                font-size: .3rem;
+                color:#111111;
+                padding: 0 .3rem;
+            }
+            .conditionlist{
+                padding:.2rem;
+                >p{
+                    line-height: .5rem;
+                    color: #999999;
+                    font-size: .25rem;
+                }
+            }
+        }
+        .teluser{
+            width: 100%;
+            border-top: .2rem solid #F6F6F6;
+            >h2{
+                line-height: 1rem;
+                border-bottom: .01rem solid #DBDBDB;
+                font-size: .3rem;
+                color:#111111;
+                padding: 0 .3rem;
+                
+            }
+            .contact{
+                padding:.2rem;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                min-height: .6rem;
+                >span{
+                    display: inline-block;
+                    width:40%;
+                }
+                >a{
+                    display: inline-block;
+                    width: 1.5rem;
+                    height: .5rem;
+                    border-radius: .25rem;
+                    color: #fff;
+                    background-color: #36A2EE;
+                    font-size: .25rem;
+                    text-align: center;
+                    line-height: .5rem;
+                    text-decoration: none;
+                }
+            }
+        }
+        .science{
+            width: 100%;
+            height:2rem;
+            border-top: .2rem solid #F6F6F6;
+            >h2{
+                line-height: 1rem;
+                border-bottom: .01rem solid #DBDBDB;
+                font-size: .3rem;
+                color:#111111;
+                padding: 0 .3rem;
+            }
+            >p{
+                line-height: .5rem;
+                color:#999999;
+                font-size: .25rem;
+                padding:0 .2rem;
+            }
+        }
+    }
+    .bottombtn{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .collection{
+            width: 15%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            >span{
+                font-size: .25rem;
+                color: #666666;
+            }
+            >img{
+                width: .45rem;
+                margin-bottom: .1rem;
+            }
+        }
+        .btn{
+            width:85%;
+            color:#fff;
+            height: 100%;
+            text-align: center;
+            line-height: 1rem;
+            background: linear-gradient(90deg,rgba(254,114,73,1),rgba(251,41,66,1));
+            box-shadow:0px -.01rem 0px 0px rgba(219,219,219,1);
+        }
+    }
+}

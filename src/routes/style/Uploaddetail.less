@@ -1,0 +1,157 @@
+.App{
+    position: relative;
+    background-color: #F6F6F6;
+    .main{
+        padding: .89rem 0 0;
+        background-color: #fff;
+        border-top: .01rem solid #DBDBDB;
+        >h2{
+            line-height: .8rem;
+            background-color: #F3F3F3;
+            color:#999999;
+            font-size: .28rem;
+            padding-left: .2rem;
+        }
+        .list{
+            height: 1rem;
+            font-size: .25rem;
+            padding: 0 .2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: .01rem solid #ddd;
+            >span{
+                color:#333333;
+            }
+            .box{
+                width: 80%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                >input{
+                    width: 48%;
+                    height: 60%;
+                    border:0 none;
+                    padding: 0 .2rem;
+                }
+                >input:first-child{
+                    text-align:right;
+                    &::placeholder{
+                        text-align: right;
+                    }
+                }
+                >input:last-child{
+                    text-align:left;
+                    &::placeholder{
+                        text-align: left;
+                    }
+                }
+                >span{
+                    color:#bbbbbb;
+                }
+            }
+        }
+        .header{
+            width: 100%;
+            height:.88rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            border-top: .01rem solid #F3F3F3;
+            position: sticky;
+            top:0;
+            z-index:3;
+            .tabs{
+                width: 5rem;
+                height: .6rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: .01rem solid #F63B2C;
+                border-radius: .1rem;
+                overflow: hidden;
+                >div{
+                    width: 2.5rem;
+                    height: .6rem;
+                    text-align: center;
+                    line-height: .6rem;
+                    color:#F63B2C;
+                }
+                .active{
+                    background-color: #F63B2C;
+                    color:#fff;
+                }
+            }
+        }
+        .content{
+            .info{
+                width: 100%;
+                min-height: 2rem;
+                padding: .2rem;
+                border-bottom: .01rem solid #eeeeee;
+                >h2{
+                    line-height:.6rem;
+                    font-size: .3rem;
+                    color: #333333;
+                    margin-bottom: .2rem;
+                }
+                >div{
+                    
+                }
+            }
+            
+        }
+        .upload{
+            width: 100%;
+            padding: .2rem;
+            >h2{
+                line-height: .6rem;
+                font-size: .3rem;
+                color: #333333;
+            }
+            .con{
+                height: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .imgbox{
+                    width: 1.6rem;
+                    height: 1.6rem;
+                    background-size: contain !important;
+                    >input{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .btn{
+            width: 100%;
+            height: 2.5rem;
+            background-color: #F3F3F3;
+            padding-top: .5rem;
+        }
+    }
+}
+.tags{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 0 .2rem;
+    >span{
+        width: 1.3rem;
+        height:.4rem;
+        background-color: #B2B2B2;
+        border-radius: .05rem;
+        color: #fff;
+        font-size: .2rem;
+        line-height: .4rem;
+        text-align: center;
+        margin-right:.2rem;
+    }
+    .active{
+        background-color: #5EBBF4;
+        color:#fff;
+    }
+}

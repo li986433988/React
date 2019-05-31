@@ -1,0 +1,64 @@
+.App{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    .main{
+        position: absolute;
+        top: .88rem;
+        bottom: 0;
+        width: 100%;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        >h2{
+            line-height: .8rem;
+            background-color: #F6F6F6;
+            padding: 0 .2rem;
+            font-size: .28rem;
+            color:#666666;
+        }
+        .menus{
+            width: 100%;
+            height: 1.5rem;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 .2rem;
+            >div{
+                width: 1.5rem;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                >img{
+                    width: .9rem;
+                    height: .9rem;
+                }
+                >p{
+                    font-size: .25rem;
+                    color: #333333;
+                    line-height: .4rem;
+                }
+            }
+        }
+        .fire{
+            padding:.2rem;
+            .fireproblom{
+                display: flex;
+                height: .5rem;
+                justify-content: flex-start;
+                align-items: center;
+                >img{
+                    width: .15rem;
+                    height: .15rem;
+                    margin-right: .2rem;
+                }
+                >p{
+                    line-height: .5rem;
+                }
+            }
+        }
+    }
+}

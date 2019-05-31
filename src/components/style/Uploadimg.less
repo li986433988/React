@@ -1,0 +1,46 @@
+.box{
+    width: 100%;
+    background-color: #fff;
+    min-height: 4.7rem;
+    border-top: .2rem solid #F6F6F6;
+    >h2{
+        line-height: 1rem;
+        padding-left: .2rem;
+        color:#333;
+        font-size: .3rem;
+        background-color: #fff;
+        border:.01rem solid #EEEEEE;
+    }
+    .con{
+        display: flex;
+        height: 3.5rem;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        .imgbox{
+            width: 3.5rem;
+            height: 2.24rem;
+            position: relative;
+            background-size: contain !important;
+            overflow: hidden;
+            >input{
+                display: none;
+            }
+            .camera{
+                position: absolute;
+                width:.9rem;
+                height: .9rem;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: -.4rem;
+                background-color:#fff;
+                border-radius: 50%;
+            }
+        }
+        >p{
+            margin-top: .2rem;
+            font-size: .2rem;
+            color: #666666;
+        }
+    }
+}

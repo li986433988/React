@@ -1,0 +1,153 @@
+.App{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 1rem;
+    background-color: #F5F5F5;
+    .header{
+        width: 100%;
+        height: 2.5rem;
+        background: #36A2EE;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 .6rem;
+        .imgbox{
+            width: 1.2rem;
+            height: 1.2rem;
+            border-radius: 50%;
+            background-size: contain !important;
+        }
+        .userinfo{
+            width: 4.5rem;
+            height: 1.8rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+            font-size: .3rem;
+            padding: .2rem 0;
+            >img{
+                height: .5rem;
+            }
+            >div{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                >p{
+                    line-height: .5rem;
+                }
+                >div{
+                    box-sizing: content-box;
+                    padding: 0 .3rem;
+                    text-align: center;
+                    border: .01rem solid #fff;
+                    border-radius: .1rem;
+                    font-size: .3rem;
+                }
+            }
+        }
+    }
+    .credit{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 1rem;
+        line-height: 1rem;
+        font-size: .28rem;
+        padding: 0 .4rem;
+        margin-bottom:.05rem;
+        background-color: #fff;
+        >h2{
+            color: #333333;
+        }
+        >p{
+            color: #999999;
+        }
+    }
+    .myloan{
+        width: 100%;
+        padding:.2rem .4rem;
+        color:#333333;
+        margin-bottom:.05rem;
+        background-color: #fff;
+        >h2{
+            line-height: .6rem;
+            font-size: .3rem;
+        }
+        .menus{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height:1.5rem;
+            >div{
+                width: 33%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                >img{
+                    width: .5rem;
+                    margin-bottom: .2rem;
+                }
+                >p{
+                    font-size: .25rem;
+                }
+            }
+        }
+    }
+    .service{
+        width: 100%;
+        height: auto;
+        padding:.2rem .4rem .4rem;
+        margin-bottom:.05rem;
+        background-color: #fff;
+        >h2{
+            color: #333333;
+            font-size: .3rem;
+            line-height: .6rem;
+        }
+        .gridbox{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .menus{
+                width:20%;
+                min-height: 1rem;
+                margin:.2rem .3rem;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                >div{
+                    width: .6rem;
+                    height: .6rem;
+                    background-size: contain !important;
+                    background-color: red;
+                }
+                >span{
+                    font-size:.25rem;
+                    text-align: center;
+                    color: #333333;
+                    margin-top: .15rem;
+                }
+            }
+        }
+    }
+}
+.imgbox{
+    width:100%;
+    height:5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    img{
+        width: 100%;
+    }
+}

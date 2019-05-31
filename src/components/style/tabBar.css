@@ -1,0 +1,45 @@
+.tabBarAll{
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height:1rem;
+    width: 100%;
+    background: #FFF;
+    z-index:3;
+}
+.tabBarItem{
+    flex-basis: 25%;
+    position: relative;
+}
+.tabBarItemInfo{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: .2rem;
+}
+.tabBarItemInfoIcon{
+    width:.44rem;
+    height:.44rem;
+}
+.tabBarItemInfoText{
+    color: #bfbfbf;
+    line-height:.25rem;
+    margin-top: .05rem;
+}
+.tabBarItemInfoTextActive{
+    line-height:.25rem;
+    color: #84C8EC;
+    margin-top:.05rem;
+}

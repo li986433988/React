@@ -1,0 +1,44 @@
+.App{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    .main{
+        position: absolute;
+        top: .88rem;
+        bottom: 0;
+        width: 100%;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        >h2{
+            line-height: .8rem;
+            background-color: #F6F6F6;
+            font-size: .25rem;
+            padding:0 .2rem;
+        }
+        .headimg{
+            width: 100%;
+            height: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            border-bottom: .05rem solid #F6F6F6;
+            padding: 0 .2rem;
+            >span{
+                font-size: .3rem;
+            }
+            .imgbox{
+                display: block;
+                width: 1.2rem;
+                height: 1.2rem;
+                margin-right: .2rem;
+                border-radius: 50%;
+                background-size: contain !important;
+                >input{
+                    display: none;
+                }
+            }
+        }
+    }
+}

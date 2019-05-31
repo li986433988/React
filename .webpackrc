@@ -1,0 +1,17 @@
+{
+  "entry": "src/index.js",
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        ["import", { "libraryName": "antd-mobile","style": true }],
+        ["import", {"libraryName": "antd", "libraryDirectory": "es", "style": "css" },""]
+      ]
+    },
+    "production": {
+      "extraBabelPlugins": [
+        ["import", { "libraryName": "antd-mobile","style": true }],
+        ["import", {"libraryName": "antd", "libraryDirectory": "es", "style": "css" },""]
+      ]
+    }
+  }
+}
